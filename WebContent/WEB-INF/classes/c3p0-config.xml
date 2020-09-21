@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<!-- 默认配置，只可以出现一次 -->
+	<default-config>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/wh_store?useUnicode=true&amp;characterEncoding=utf-8</property>
+		<property name="user">root</property>
+		<property name="password">123</property>
+	</default-config>
+</c3p0-config>
+
